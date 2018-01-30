@@ -142,9 +142,7 @@ fi.last([5, 4, 3, 2, 1]);
 ```
 
 **fi.compact**
-
 `fi.compact(array)`
-
 Returns a copy of the **array** with all falsy values removed. In JavaScript, _false_, _null_, _0_, _""_, _undefined_ and _NaN_ are all falsy.
 
 ```javascript
