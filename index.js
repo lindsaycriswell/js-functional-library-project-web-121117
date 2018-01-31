@@ -27,7 +27,7 @@ fi = (function() {
     // think about incorporating object keys
     reduce: function(collection, acc, iteratee) {
       const vals = Object.values(collection);
-      collection.forEach(function(element){
+      vals.forEach(function(element){
         acc = iteratee(acc, element)
       })
       return acc
